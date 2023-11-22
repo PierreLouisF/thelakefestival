@@ -23,22 +23,22 @@ function Home() {
           dividerStyle={{ color: 'transparent', height: 1 }}
           separatorStyle={{ color: '#00282A', size: '6px' }}
           duration={0.5}
-          className='mt-10'
+          className="mt-10"
         >
           Finished
         </FlipClockCountdown>
 
-        <div>
-          <p className="text-center text-sm max-w-5xl bg-[#00282A] p-4 mx-4 rounded-lg bg-opacity-80 lg:text-xl sm:text-lg lg:p-6">THE LAKE FESTIVAL représente un événement dédié à la promotion d'une culture musicale éco-responsable.
+        <div className="text-center text-sm max-w-5xl bg-[#00282A] p-4 mx-4 rounded-lg bg-opacity-80 lg:text-xl sm:text-lg lg:p-6">
+          <p >THE LAKE FESTIVAL représente un événement dédié à la promotion d'une culture musicale éco-responsable.
             <br /> Notre mission s'étend au-delà du simple divertissement en visant à sensibiliser à l'importance de la durabilité dans le domaine de l'événementiel. Nous mettons en lumière les initiatives artistiques et engagées au niveau local et régional, encourageons la découverte et le soutien des nouveaux talents musicaux, et contribuons à renforcer la communauté autour de valeurs partagées telles que le respect de l'environnement et la solidarité.
-            <br />
-            <br />
-            <div className="flex flex-row items-center justify-center gap-2 content-center">
-              <MailOutlineOutlinedIcon style={window.innerWidth >= 640 ? { fontSize: 32 } : { fontSize: 24 }} />
-              <p>Email de contact : piloufournet@gmail.com</p>
-            </div>
 
           </p>
+          <br />
+          <div className="flex flex-row items-center justify-center gap-2 content-center">
+            <MailOutlineOutlinedIcon style={window.innerWidth >= 640 ? { fontSize: 32 } : { fontSize: 24 }} />
+            <p>Email de contact : piloufournet@gmail.com</p>
+          </div>
+
         </div>
 
         <div className="bottom-0 left-0 right-0 mb-8 mx-auto max-w-xl border rounded bg-[#D7F7F6] py-1 bg-opacity-20 px-2 text-center">
